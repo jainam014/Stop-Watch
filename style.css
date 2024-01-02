@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    position: relative;
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+}
+
+.container h1{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .clock{
+    font-size: 35px;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+ .container .btn1{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 85px -50px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.container .btn2{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 83px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
